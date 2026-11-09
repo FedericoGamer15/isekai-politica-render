@@ -1,0 +1,48 @@
+name: Ensamblar video desde run previo
+on:
+  workflow_dispatch:
+    inputs:
+      run_id:
+        description: "Run ID con los artefactos de partes"
+        required: true
+        default: "42712656853"
+
+permissions:
+  actions: read
+  contents: write
+
+jobs:
+  assemble:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg libnss3 libatk1.0-0t64 libatk-bridge2.0-0t64 libcups2t64 libdrm2 libxkbcommon0 libxcomposite1 libxdamage1 libxfixes3 libxrandr2 libgbm1 libasound2t64 libpango-1.0-0 libcairo2
+      - run: npm ci
+      - run: pip install numpy scipy soundfile pillow
+      - name: Descargar partes del run previo
+        uses: actions/download-artifact@v4
+        with:
+          pattern: part-*
+          path: parts
+          merge-multiple: true
+          run-id: ${{ github.event.inputs.run_id }}
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+      - name: Unir partes + audio + loudnorm
+        run: |
+          mkdir -p out
+          for f in $(ls parts/part-*.mp4 | sort); do echo "file '$PWD/$f'" >> list.txt; done
+          cat list.txt
+          ffmpeg -y -f concat -safe 0 -i list.txt -c copy out/video-silent.mp4
+          npx remotion render World2DAudio out/audio.wav --codec=wav
+          ffmpeg -y -i out/video-silent.mp4 -i out/audio.wav -map 0:v -map 1:a -c:v copy -c:a aac -b:a 320k -shortest out/raw.mp4
+          python scripts/loudnorm.py out/raw.mp4 out/video.mp4
+          ffprobe -v error -show_entries stream=codec_name,width,height,nb_frames -show_entries format=duration out/video.mp4
+      - uses: actions/upload-artifact@v4
+        with:
+          name: isekai-politica-final
+          path: out/video.mp4
+          retention-days: 7
