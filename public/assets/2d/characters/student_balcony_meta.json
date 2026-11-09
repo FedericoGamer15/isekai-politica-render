@@ -1,0 +1,27 @@
+{
+  "source": "isekai-politica-video/public/assets/2d/props/raw_k6.png",
+  "source_size": [
+    1536,
+    2752
+  ],
+  "assets": [
+    {
+      "id": "student_king_balcony_sipping",
+      "file": "isekai-politica-video/public/assets/2d/characters/student_king_balcony_sipping.png",
+      "width": 797,
+      "height": 1347,
+      "source_bbox": [
+        739,
+        1310,
+        1536,
+        2657
+      ],
+      "mc_x": 260,
+      "mc_y": 424,
+      "mc_bottom_y": 894,
+      "recommended_width": 560,
+      "recommended_height": 940
+    }
+  ],
+  "typescript_snippet": "export const CANVA_ASSETS = {\n  student_king_balcony_sipping: { src: '/assets/2d/characters/student_king_balcony_sipping.png', width: 797, height: 1347, mcX: 260, mcY: 424, mcBottomY: 894 },\n} as const;"
+}

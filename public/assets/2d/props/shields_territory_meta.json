@@ -1,0 +1,27 @@
+{
+  "source": "isekai-politica-video/public/assets/2d/props/raw_k5.png",
+  "source_size": [
+    1536,
+    2752
+  ],
+  "assets": [
+    {
+      "id": "shields_territory_planning",
+      "file": "isekai-politica-video/public/assets/2d/props/shields_territory_planning.png",
+      "width": 1536,
+      "height": 2604,
+      "source_bbox": [
+        0,
+        124,
+        1536,
+        2728
+      ],
+      "mc_x": 0,
+      "mc_y": 35,
+      "mc_bottom_y": 944,
+      "recommended_width": 1080,
+      "recommended_height": 1817
+    }
+  ],
+  "typescript_snippet": "export const CANVA_ASSETS = {\n  shields_territory_planning: { src: '/assets/2d/props/shields_territory_planning.png', width: 1536, height: 2604, mcX: 0, mcY: 35, mcBottomY: 944 },\n} as const;"
+}

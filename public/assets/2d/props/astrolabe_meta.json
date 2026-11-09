@@ -1,0 +1,27 @@
+{
+  "source": "isekai-politica-video/public/assets/2d/props/raw_astrolabe.png",
+  "source_size": [
+    1536,
+    2752
+  ],
+  "assets": [
+    {
+      "id": "celestial_clockwork_astrolabe",
+      "file": "isekai-politica-video/public/assets/2d/props/celestial_clockwork_astrolabe.png",
+      "width": 1536,
+      "height": 2719,
+      "source_bbox": [
+        0,
+        0,
+        1536,
+        2719
+      ],
+      "mc_x": 0,
+      "mc_y": -12,
+      "mc_bottom_y": 936,
+      "recommended_width": 1080,
+      "recommended_height": 1897
+    }
+  ],
+  "typescript_snippet": "export const CANVA_ASSETS = {\n  celestial_clockwork_astrolabe: { src: '/assets/2d/props/celestial_clockwork_astrolabe.png', width: 1536, height: 2719, mcX: 0, mcY: -12, mcBottomY: 936 },\n} as const;"
+}

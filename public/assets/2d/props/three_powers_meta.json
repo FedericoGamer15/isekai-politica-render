@@ -1,0 +1,27 @@
+{
+  "source": "isekai-politica-video/public/assets/2d/props/raw_three_powers.png",
+  "source_size": [
+    1536,
+    2752
+  ],
+  "assets": [
+    {
+      "id": "three_powers_runic_assembly",
+      "file": "isekai-politica-video/public/assets/2d/props/three_powers_runic_assembly.png",
+      "width": 1495,
+      "height": 2674,
+      "source_bbox": [
+        28,
+        26,
+        1523,
+        2700
+      ],
+      "mc_x": 5,
+      "mc_y": -9,
+      "mc_bottom_y": 924,
+      "recommended_width": 1051,
+      "recommended_height": 1866
+    }
+  ],
+  "typescript_snippet": "export const CANVA_ASSETS = {\n  three_powers_runic_assembly: { src: '/assets/2d/props/three_powers_runic_assembly.png', width: 1495, height: 2674, mcX: 5, mcY: -9, mcBottomY: 924 },\n} as const;"
+}

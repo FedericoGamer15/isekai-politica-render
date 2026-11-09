@@ -1,0 +1,27 @@
+{
+  "source": "isekai-politica-video/public/assets/2d/characters/raw_mc_close.png",
+  "source_size": [
+    1536,
+    2752
+  ],
+  "assets": [
+    {
+      "id": "mc_close_smug",
+      "file": "isekai-politica-video/public/assets/2d/characters/mc_close_smug.png",
+      "width": 1536,
+      "height": 2659,
+      "source_bbox": [
+        0,
+        93,
+        1536,
+        2752
+      ],
+      "mc_x": 0,
+      "mc_y": 32,
+      "mc_bottom_y": 960,
+      "recommended_width": 1080,
+      "recommended_height": 1855
+    }
+  ],
+  "typescript_snippet": "export const CANVA_ASSETS = {\n  mc_close_smug: { src: '/assets/2d/characters/mc_close_smug.png', width: 1536, height: 2659, mcX: 0, mcY: 32, mcBottomY: 960 },\n} as const;"
+}

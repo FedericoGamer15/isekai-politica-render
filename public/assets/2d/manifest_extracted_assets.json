@@ -1,0 +1,242 @@
+{
+  "scene_00_bg": {
+    "src": "assets/2d/environments/scene_00_bg.png",
+    "width": 1072,
+    "height": 1920,
+    "mcX": 0,
+    "mcY": 0,
+    "mcBottomY": 960,
+    "category": "environment",
+    "description": "Trono de piedra en castillo en ruinas sin MC ni cofre (Canva reconstructed background plate)"
+  },
+  "student_on_ruined_throne": {
+    "src": "assets/2d/characters/student_on_ruined_throne.png",
+    "width": 1454,
+    "height": 2665,
+    "mcX": 4,
+    "mcY": -5,
+    "mcBottomY": 924,
+    "category": "character",
+    "description": "Estudiante con corona torcida sentado en el trono con capa real (100% alfa transparente Canva Magic Studio)"
+  },
+  "open_chest_coin": {
+    "src": "assets/2d/props/open_chest_coin.png",
+    "width": 615,
+    "height": 853,
+    "mcX": 302,
+    "mcY": 585,
+    "mcBottomY": 882,
+    "category": "prop",
+    "description": "Cofre del tesoro abierto con 1 moneda y telara\u00f1a (alfa transparente)"
+  },
+  "scene_01_bg": {
+    "src": "assets/2d/environments/scene_01_bg.png",
+    "width": 1072,
+    "height": 1920,
+    "mcX": 0,
+    "mcY": 0,
+    "mcBottomY": 960,
+    "category": "environment",
+    "description": "Taller arcano \u00edndigo limpio sin personajes (Canva reconstructed background plate)"
+  },
+  "mc_close_smug": {
+    "src": "assets/2d/characters/mc_close_smug.png",
+    "width": 1536,
+    "height": 2659,
+    "mcX": 0,
+    "mcY": 32,
+    "mcBottomY": 960,
+    "category": "character",
+    "description": "Primer plano astuto del MC con ojos brillantes y sonrisa confiada (100% alfa transparente Canva Magic Studio)"
+  },
+  "crumbling_noble": {
+    "src": "assets/2d/characters/crumbling_noble.png",
+    "width": 783,
+    "height": 1211,
+    "mcX": 221,
+    "mcY": -384,
+    "mcBottomY": 38,
+    "category": "character",
+    "description": "Noble absolutista desmoron\u00e1ndose como carb\u00f3n (alfa transparente)"
+  },
+  "magical_blueprints": {
+    "src": "assets/2d/props/magical_blueprints.png",
+    "width": 1229,
+    "height": 1101,
+    "mcX": 0,
+    "mcY": 0,
+    "mcBottomY": 384,
+    "category": "prop",
+    "description": "Planos arquitect\u00f3nicos m\u00e1gicos dorados desplegados (alfa transparente)"
+  },
+  "scene_02_bg": {
+    "src": "assets/2d/environments/scene_02_bg.png",
+    "width": 1072,
+    "height": 1920,
+    "mcX": 0,
+    "mcY": 0,
+    "mcBottomY": 960,
+    "category": "environment",
+    "description": "Pergamino manuscrito antiguo sin elementos (Canva reconstructed background plate)"
+  },
+  "three_powers_runic_assembly": {
+    "src": "assets/2d/props/three_powers_runic_assembly.png",
+    "width": 1495,
+    "height": 2674,
+    "mcX": 5,
+    "mcY": -9,
+    "mcBottomY": 924,
+    "category": "prop",
+    "description": "Ensemble completo de los 3 Bloques Aut\u00f3nomos (runas + mesas + balanza) (100% alfa transparente Canva Magic Studio)"
+  },
+  "table_legislative_grimoire": {
+    "src": "assets/2d/props/table_legislative_grimoire.png",
+    "width": 814,
+    "height": 1211,
+    "mcX": -233,
+    "mcY": -384,
+    "mcBottomY": 38,
+    "category": "prop",
+    "description": "Mesa redonda del Bloque Legislativo escribiendo el Grimorio (alfa transparente)"
+  },
+  "chibi_mc_padlock": {
+    "src": "assets/2d/characters/chibi_mc_padlock.png",
+    "width": 384,
+    "height": 716,
+    "mcX": -27,
+    "mcY": -173,
+    "mcBottomY": 77,
+    "category": "character",
+    "description": "Chibi MC con candado intentando modificar la ley sin \u00e9xito (alfa transparente)"
+  },
+  "table_executive_strategy": {
+    "src": "assets/2d/props/table_executive_strategy.png",
+    "width": 768,
+    "height": 1211,
+    "mcX": 248,
+    "mcY": -384,
+    "mcBottomY": 38,
+    "category": "prop",
+    "description": "Mesa de estrategia del Bloque Ejecutivo con mapas y bolsas de oro (alfa transparente)"
+  },
+  "scale_judicial_balance": {
+    "src": "assets/2d/props/scale_judicial_balance.png",
+    "width": 1291,
+    "height": 1183,
+    "mcX": 0,
+    "mcY": 451,
+    "mcBottomY": 864,
+    "category": "prop",
+    "description": "Balanza de hierro del Bloque Judicial con jueza ciega y mazo (alfa transparente)"
+  },
+  "scene_03_bg": {
+    "src": "assets/2d/environments/scene_03_bg.png",
+    "width": 1072,
+    "height": 1920,
+    "mcX": 0,
+    "mcY": 0,
+    "mcBottomY": 960,
+    "category": "environment",
+    "description": "\u00c1rbol de Habilidades RPG parte 1 limpio sin escudos (Canva reconstructed background plate)"
+  },
+  "shields_logistics_hr": {
+    "src": "assets/2d/props/shields_logistics_hr.png",
+    "width": 1483,
+    "height": 2677,
+    "mcX": 2,
+    "mcY": -7,
+    "mcBottomY": 927,
+    "category": "prop",
+    "description": "Escudo Dorado de Log\u00edstica + Escudo Esmeralda de RRHH ensamblados (100% alfa transparente Canva Magic Studio)"
+  },
+  "shield_logistics_gold": {
+    "src": "assets/2d/props/shield_logistics_gold.png",
+    "width": 752,
+    "height": 2091,
+    "mcX": -243,
+    "mcY": 0,
+    "mcBottomY": 730,
+    "category": "prop",
+    "description": "Escudo Dorado de Soporte Log\u00edstico: Econom\u00eda, Trabajo, Agricultura (alfa transparente)"
+  },
+  "shield_human_resources_emerald": {
+    "src": "assets/2d/props/shield_human_resources_emerald.png",
+    "width": 752,
+    "height": 2091,
+    "mcX": 243,
+    "mcY": 0,
+    "mcBottomY": 730,
+    "category": "prop",
+    "description": "Escudo Esmeralda de Recursos Humanos: Salud, Educaci\u00f3n, Desarrollo Social (alfa transparente)"
+  },
+  "scene_04_bg": {
+    "src": "assets/2d/environments/scene_04_bg.png",
+    "width": 1072,
+    "height": 1920,
+    "mcX": 0,
+    "mcY": 0,
+    "mcBottomY": 960,
+    "category": "environment",
+    "description": "\u00c1rbol de Habilidades RPG parte 2 limpio sin escudos (Canva reconstructed background plate)"
+  },
+  "shields_territory_planning": {
+    "src": "assets/2d/props/shields_territory_planning.png",
+    "width": 1536,
+    "height": 2604,
+    "mcX": 0,
+    "mcY": 35,
+    "mcBottomY": 944,
+    "category": "prop",
+    "description": "Escudo de Acero de Territorio + Escudo de Piedra de Planificaci\u00f3n ensamblados (100% alfa transparente Canva Magic Studio)"
+  },
+  "shield_territory_steel": {
+    "src": "assets/2d/props/shield_territory_steel.png",
+    "width": 752,
+    "height": 2091,
+    "mcX": -243,
+    "mcY": 0,
+    "mcBottomY": 730,
+    "category": "prop",
+    "description": "Escudo de Acero de Blindaje Territorial: Interior, Defensa, Relaciones Exteriores (alfa transparente)"
+  },
+  "shield_planning_stone": {
+    "src": "assets/2d/props/shield_planning_stone.png",
+    "width": 752,
+    "height": 2091,
+    "mcX": 243,
+    "mcY": 0,
+    "mcBottomY": 730,
+    "category": "prop",
+    "description": "Escudo de Piedra de Planificaci\u00f3n: Transporte, Vivienda, Ambiente (alfa transparente)"
+  },
+  "scene_05_bg": {
+    "src": "assets/2d/environments/scene_05_bg.png",
+    "width": 1072,
+    "height": 1920,
+    "mcX": 0,
+    "mcY": 0,
+    "mcBottomY": 960,
+    "category": "environment",
+    "description": "Reino pr\u00f3spero soleado sin astrolabio ni MC en balc\u00f3n (Canva reconstructed background plate)"
+  },
+  "celestial_clockwork_astrolabe": {
+    "src": "assets/2d/props/celestial_clockwork_astrolabe.png",
+    "width": 1536,
+    "height": 2719,
+    "mcX": 0,
+    "mcY": -12,
+    "mcBottomY": 936,
+    "category": "prop",
+    "description": "Astrolabio celestial de engranajes dorados y runas giratorias (100% alfa transparente Canva Magic Studio)"
+  },
+  "student_king_balcony_sipping": {
+    "src": "assets/2d/characters/student_king_balcony_sipping.png",
+    "width": 797,
+    "height": 1347,
+    "mcX": 260,
+    "mcY": 424,
+    "mcBottomY": 894,
+    "category": "character",
+    "description": "Estudiante rey relajado en balc\u00f3n bebiendo jugo con pajita (100% alfa transparente Canva Magic Studio)"
+  }
+}

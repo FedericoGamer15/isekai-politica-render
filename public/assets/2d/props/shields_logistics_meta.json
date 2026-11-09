@@ -1,0 +1,27 @@
+{
+  "source": "isekai-politica-video/public/assets/2d/props/raw_k4.png",
+  "source_size": [
+    1536,
+    2752
+  ],
+  "assets": [
+    {
+      "id": "shields_logistics_hr",
+      "file": "isekai-politica-video/public/assets/2d/props/shields_logistics_hr.png",
+      "width": 1483,
+      "height": 2677,
+      "source_bbox": [
+        30,
+        27,
+        1513,
+        2704
+      ],
+      "mc_x": 2,
+      "mc_y": -7,
+      "mc_bottom_y": 927,
+      "recommended_width": 1043,
+      "recommended_height": 1868
+    }
+  ],
+  "typescript_snippet": "export const CANVA_ASSETS = {\n  shields_logistics_hr: { src: '/assets/2d/props/shields_logistics_hr.png', width: 1483, height: 2677, mcX: 2, mcY: -7, mcBottomY: 927 },\n} as const;"
+}

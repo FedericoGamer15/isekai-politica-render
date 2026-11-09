@@ -1,0 +1,6 @@
+node_modules/
+out/
+.env
+parts/
+*.zip
+public/assets/2d/environments/keyframe_0*.*

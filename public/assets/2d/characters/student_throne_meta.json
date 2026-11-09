@@ -1,0 +1,27 @@
+{
+  "source": "isekai-politica-video/public/assets/2d/characters/student_on_ruined_throne_canva.png",
+  "source_size": [
+    1536,
+    2752
+  ],
+  "assets": [
+    {
+      "id": "student_on_ruined_throne",
+      "file": "isekai-politica-video/public/assets/2d/characters/student_on_ruined_throne.png",
+      "width": 1454,
+      "height": 2665,
+      "source_bbox": [
+        46,
+        37,
+        1500,
+        2702
+      ],
+      "mc_x": 4,
+      "mc_y": -5,
+      "mc_bottom_y": 924,
+      "recommended_width": 1022,
+      "recommended_height": 1859
+    }
+  ],
+  "typescript_snippet": "export const CANVA_ASSETS = {\n  student_on_ruined_throne: { src: '/assets/2d/characters/student_on_ruined_throne.png', width: 1454, height: 2665, mcX: 4, mcY: -5, mcBottomY: 924 },\n} as const;"
+}
