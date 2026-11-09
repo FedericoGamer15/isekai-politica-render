@@ -76,7 +76,7 @@ jobs:
           mkdir -p out
           for f in $(ls parts/part-*.mp4 | sort); do echo "file '$PWD/$f'" >> list.txt; done
           ffmpeg -y -f concat -safe 0 -i list.txt -c copy out/video-silent.mp4
-          npx remotion render ${{ env.COMP }} out/audio.wav --codec=wav --gl=swangle
+          npx remotion render World2DAudio out/audio.wav --codec=wav
           ffmpeg -y -i out/video-silent.mp4 -i out/audio.wav -map 0:v -map 1:a -c:v copy -c:a aac -b:a 320k -shortest out/raw.mp4
           python scripts/loudnorm.py out/raw.mp4 out/video.mp4
           ffprobe -v error -show_entries stream=codec_name,width,height,nb_frames -show_entries format=duration out/video.mp4
