@@ -46,3 +46,8 @@ jobs:
           name: isekai-politica-final
           path: out/video.mp4
           retention-days: 7
+      - name: Actualizar GitHub Release v1.0.0
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh release upload v1.0.0 out/video.mp4 --clobber || gh release create v1.0.0 out/video.mp4 --title "Isekai Politica - Video Final 60s" --notes "Render final con música, narración Fish Audio y SFX balanceados."
